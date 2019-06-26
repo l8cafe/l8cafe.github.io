@@ -1,1 +1,1 @@
-Sitemap: http://l8cafe.github.io/sitemap.xml
+Sitemap: http://l8cafe.com/sitemap.xml
