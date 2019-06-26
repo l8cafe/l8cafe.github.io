@@ -1,1 +1,1 @@
-Sitemap: http://l8cafe.com/sitemap.xml
+Sitemap: https://l8cafe.com/sitemap.xml
