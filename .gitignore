@@ -1,1 +1,6 @@
-index.min.html
+_site
+.sass-cache
+*.*.map
+.vscode
+.DS_Store
+.jekyll-metadata

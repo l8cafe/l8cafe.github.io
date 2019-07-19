@@ -1,0 +1,87 @@
+<section id="menu" class="menu-section py-4">
+    <div class="container">
+        <div class="row">
+            <!-- Heading and text -->
+            <div class="col-md-12 text-center">
+                <h1>Menu List</h1>
+                <p>Be it a quick coffee whilst reading the morning paper or catching up with a couple friends over a delicious meal, we've got it all @ L8 Cafe! Check out our menu by clicking the dropdown below. </p>
+            </div>
+
+            <!-- Labels for categories -->
+            <div class="col-12 text-center py-4" id="menu-filters">
+
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Breakfast
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+
+                        <button id="first" class="dropdown-item filter active"
+                            data-filter=".breakfast">Breakfast</button>
+                        <button class="dropdown-item filter" type="button" data-filter=".omelette">Omelettes</button>
+                        <button class="dropdown-item filter" type="button" data-filter=".salad">Salads</button>
+                        <button class="dropdown-item filter" type="button" data-filter=".burger">Burgers</button>
+                        <button class="dropdown-item filter" type="button" data-filter=".sandwich">Gourmet
+                            Sandwiches</button>
+                        <button class="dropdown-item filter" type="button" data-filter=".cold">Cold Beverages</button>
+                        <button class="dropdown-item filter" type="button" data-filter=".hot">Hot Beverages</button>
+                        <button class="dropdown-item filter" type="button" data-filter=".vino">Vino</button>
+                        <button class="dropdown-item filter" type="button" data-filter=".beer">Beers & Ciders</button>
+                        <button class="dropdown-item filter" type="button" data-filter=".beerOnTap">Craft Beers On
+                            Tap</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Actual items -->
+            <div id="menu-wrapper" class="col">
+                <!-- Category flavour text -->
+                <div class="row">
+                    {% for item in site.data.menu %}
+                    <p
+                        class="{{ item.category }} menu-restaurant text-center font-italic mx-auto border-bottom border-primary mb-5">
+                        {{ item.description }}</p>
+                    {% endfor %}
+                </div>
+                <!-- Items -->
+                <div class="row">
+                    {% for cat in site.data.menu %}
+                    <!-- Check if we need to add headings/icons -->
+                    {% if cat.headings != null %}
+                    <!-- put heading icons for each column -->
+                    {% for i in (1..2) %}
+                    <div class="{{ cat.category }} menu-restaurant col-sm-6 col-md-6 mb-1">
+                        <div class="hide{{ i }} row justify-content-end">
+                            <div class="col-2 text-center">{{ cat.headings.first }}</div>
+                            <div class="col-2 text-center ml-3">{{ cat.headings.second }}</div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                    <!-- Actual items -->
+                    {% for item in cat.items %}
+                    <div class="{{ cat.category }} menu-restaurant col-sm-6 col-md-6 mb-1">
+                        <div class="row">
+                            <div class="col text-uppercase">{{ item.name }}</div>
+                            {% if cat.category == 'vino' or cat.category == 'beerOnTap'%}
+                            <div class="col-2 text-left">R{{ item.price.first }}</div>
+                            <div class="col-2 text-left">R{{ item.price.second }}</div>
+                            {% else %}
+                            <div class="col-4 text-left">R{{ item.price }}</div>
+                            {% endif %}
+                        </div>
+                        <div class="row">
+                            <p class="col text-muted">{{ item.subtitle }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endfor %}
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>

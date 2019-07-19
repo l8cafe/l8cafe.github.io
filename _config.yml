@@ -1,0 +1,26 @@
+title: L8 Cafe
+
+description: >-
+  L8 Café is a great place to chill and surf the net; to catch up with work out of the office or to simply enjoy the life and our great food meeting friends.
+baseurl: ""
+url: "l8cafe.com"
+contact:
+  email: l8cafejhb@gmail.com
+  address: Shop G4, Main Yard,Stanley Complex, 44 Stanley Ave, Milpark, Johannesburg, 2092
+  phone: 011 482 6985
+social:
+  facebook: L8cafe
+  instagram: l8cafe
+  twitter: l8_cafe
+
+# Build settings
+markdown: kramdown
+sass:
+    sass_dir: /
+    style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-autoprefixer
+exclude:
+  - README.md
+  - dev

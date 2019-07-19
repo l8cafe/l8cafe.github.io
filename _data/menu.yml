@@ -1,0 +1,363 @@
+# breakfast/lunch/dinner/drink
+
+# The category name corresponds to the data-filter property of the menu a element
+# eg. data-filter=".drink"
+#     category: drink
+
+# Meal Type = Code
+# -------------------------------
+# Breakfast = breakfast
+# Omelettes = omelette
+# Salads = salad
+# Burgers = burger
+# Gourmet Sandwiches = sandwich
+# Cold Beverages = cold
+# Hot Beverages = hot
+# Vino/Wine = vino
+# Beers & Ciders (bottle) = beer
+# Beers & Ciders (on tap) = beerOnTap
+
+
+- category: vino
+  description: (All our wines are from organic grapes grown on virgin land)
+  headings:
+      first: <i class="fas fa-wine-glass"></i>
+      second: <i class="fas fa-wine-bottle"></i>
+  items:
+    - name: Cloverfield Sauvignon Blanc
+      subtitle:
+      price:
+          first: 45
+          second: 145
+
+    - name: Spier Signature Chardonnay Pinot Noir
+      subtitle:
+      price:
+          first: 45
+          second: 139
+
+    - name: Fat Bastard Chardonnay
+      subtitle: 
+      price:
+          first: 49
+          second: 179
+
+    - name: Spier Chenin Blanc
+      subtitle: 
+      price:
+          first: 39
+          second: 135
+
+    - name: Warwick First Lady (Red)
+      subtitle: 
+      price:
+          first: 59
+          second: 185
+
+    - name: Cloverfield Shamrock (Red)
+      subtitle: 
+      price:
+          first: 45
+          second: 145
+
+- category: breakfast
+  description: Served All Day
+  items:
+    - name: Luca Changretta
+      subtitle: 3 free range eggs scrambled on toasted deep pan focaccia topped with grilled mushrooms, lemon zest, spring onion, parmesan, crispy streaky bacon & wild rocket
+      price: 89
+
+    - name: Brie & Avo Breakfast (V)
+      subtitle: 3 free range scrambled eggs on toasted sourdough topped with Brie cheese, wild rocket, balsamic cherry tomatoes & avo (add Bacon R25)
+      price: 69
+
+    - name: Fruit Salad (V)
+      subtitle: Fresh seasonal fruit salad, greek yogurt & crunchy baked granola
+      price: 67
+
+    - name: Salmon Breakfast
+      subtitle: Toasted rye topped with mashed avo, 3 free range scrambled eggs, smoked salmon, balsamic cherry tomatoes & spring onion
+      price: 89
+
+    - name: LS Breakfast
+      subtitle: 2 eggs (fried or scrambled), back bacon, grilled mushrooms, halloumi cheese, avo & choice of toast (Turkish, Rye, Sourdough, Health or deep pan Focaccia)
+      price: 95
+
+    - name: Super Bowl (V)
+      subtitle: Yogurt and banana topped with chia seeds, goji berries, toasted almonds and honey
+      price: 67
+
+    - name: Avo Toast (V)
+      subtitle: "Choice of Turkish | Rye | Sourdough | Health | deep pan Focaccia 
+    (1)	Mashed avo, feta, balsamic cherry tomatoes & sunflower seed
+    (2)	Mashed avo, grilled mushrooms, spring onion, wild rocket & sriracha (add bacon & fried or scrambled egg 30)"
+      price: 55
+
+- category: omelette
+  description: "All omelettes are made with 3 free range eggs  topped  with alfalfa sprouts and served with butter and a choice of toast: Turkish | Rye | Sourdough | Health | deep pan Focaccia"
+  items:
+    - name: Cheddar, fresh basil & Al fresco tomato (V)
+      subtitle: 
+      price: 65
+
+    - name: Bacon, spring onion & feta
+      subtitle: 
+      price: 76
+
+    - name: Chorizo, red pepper & avo
+      subtitle: 
+      price: 73
+
+    - name: Cheddar, mushrooms & peppadews (add Avo 25) (V)
+      subtitle: 
+      price: 65
+
+    - name: Brie cheese & caramelized onions (add Bacon 25) (V)
+      subtitle: 
+      price: 65
+
+- category: salad
+  description: All served with a slice of toasted deep pan Focaccia
+  items:
+    - name: Chicken & Bacon
+      subtitle: Seasonal lettuce mix, red onion, cherry tomatoes, grilled chicken breast strips, crispy streaky bacon & avo dressed in homemade honey mustard (add Halloumi R25)
+      price: 95
+
+    - name: Thai
+      subtitle: Seasonal lettuce mix, grilled chicken breast strips mixed in sweet chilli sauce, feta, wild rocket, toasted almonds & cherry tomatoes topped with avo & fresh coriander
+      price: 109
+
+    - name: Salmon
+      subtitle: Seasonal lettuce mix, smoked salmon, cherry tomato, feta, spring onion & avo dressed in a homemade creamy dressing
+      price: 109
+
+    - name: Caprese (V)
+      subtitle: Mozzarella fior di latte, homemade basil pesto, wild rocket, tomato & fresh basil dressed with extra virgin olive oil
+      price: 85
+
+    - name: Greek (V)
+      subtitle: Seasonal lettuce mix, olives, feta, cucumber, cherry tomatoes & avo dressed in a homemade creamy dressing
+      price: 79
+
+    - name: Halloumi & Walnut (V)
+      subtitle: Seasonal lettuce mix, grilled halloumi, grilled orange pieces, fresh mint, walnuts & cherry tomatoes dressed in homemade honey mustard. (add grilled chicken strips 35)
+      price: 95
+
+    - name: Rump
+      subtitle: Seasonal lettuce mix, grilled & sliced 21 day matured rump, red onion, grilled red peppers, feta, wild rocket, cherry tomatoes & avo, drizzled with a homemade balsamic reduction sauce
+      price: 109
+
+- category: burger
+  description: All in a very special multi flour bun and served with hand cut chips Handcrafted and grilled per order
+  items:
+    - name: McLovin
+      subtitle: Beef burger patty topped with mozzarella, homemade bacon and fig sauce & avo
+      price: 105
+
+    - name: Bojack (V)
+      subtitle: Tomato, homemade green veg patty topped with grilled halloumi & srirracha mayo (swop veg patty for grilled chicken)
+      price: 89
+
+    - name: Dr Gonzo
+      subtitle: Beef burger patty topped with brie cheese, caramelized onions, streaky bacon & smokey mayo
+      price: 99
+
+    - name: Machette
+      subtitle: Grilled beef burger patty, mozzarella, jalapenos, cracked nachos mixed with homemade sriracha mayo and avo (swop beef burger patty for grilled chicken or veg patty)
+      price: 105
+
+    - name: Mr Gustave
+      subtitle: Grilled beef burger patty, mozzarella, grilled chorizo, caramelised onions & peri mayo
+      price: 99
+
+    - name: The Hulk
+      subtitle: Grilled chicken breast topped with home made basil pesto mayo, wild rocket & avo
+      price: 89
+
+    - name: Chika Kure
+      subtitle: Long Large beef burger patty stuffed with bacon and mozzarella, topped with cream cheese mixed L8 hot sauce and diced red onion on a Turkish Roll
+      price: 129
+
+    - name: Doctore
+      subtitle: Large beef burger patty stuffed with bacon and gorgonzola topped with a homemade mushroom sauce and wild rocket
+      price: 125
+
+    - name: Travis Bickle
+      subtitle: Grilled beef burger patty topped with a homemade mushroom sauce (swop beef burger patty for grilled chicken or veg patty)
+      price: 99
+
+    - name: The Dude
+      subtitle: Grilled beef burger patty topped with mozzarella, L8 hot sauce, chunky onion rings, wild rocket and a fried egg
+      price: 105
+
+    - name: Cartman
+      subtitle: Grilled beef burger patty topped with a homemade mushroom sauce, streaky bacon and chunky onion rings
+      price: 119
+
+    - name: Renton
+      subtitle: Grilled chicken breast topped with L8 homemade hot sauce, feta, streaky bacon & avo
+      price: 95
+
+- category: sandwich
+  description: Served with hand cut chips (can swap for a garden salad)
+  items:
+    - name: Donnie  Darko
+      subtitle: Grilled chicken breasts topped with mozzarella, mango chutney mayo & crispy streaky bacon (add Avo R25)
+      price: 95
+
+    - name: Hatchet Harry (V)
+      subtitle: Really
+      price: 85
+
+    - name: Mr Wolf
+      subtitle: Mixed lettuce, grilled chicken breast topped with feta, peppadews and avo, dressed in a lemon & mustard sauce (add bacon R25)
+      price: 85
+
+    - name: Lester Burnham (V)
+      subtitle: Mozzarella fior di latte, homemade basil pesto, tomato, fresh basil, wild rocket & avo, sprinkled with black sesame seeds
+      price: 89
+
+    - name: Raymond Babbit
+      subtitle: Smoked salmon, cream cheese, mixed lettuce, tomato, spring onion & avo drizzled with black sesame seeds
+      price: 99
+
+    - name: Bill the Butcher
+      subtitle: Grilled and sliced 21 day matured rump on a bed of wild rocket, topped with red onion, balsamic cherry tomato, feta & drizzled with a homemade balsamic reduction sauce
+      price: 109
+
+- category: cold
+  items:
+    - name: Strawberry & Mint Rock Shandy
+      subtitle: Made with freshly cut strawberries and mint, served in a tall glass
+      price: 42
+
+    - name: Apple Chai Cooler
+      subtitle: Apple juice infused with homemade chai and loose leaf black african tea,served in a tall glass
+      price: 39
+
+    - name: Lemonade
+      subtitle: Lemon sorbet blended with wild mint
+      price: 39
+
+    - name: Citrus Shake
+      subtitle: Lemon sorbet blended with orange juice
+      price: 39
+
+    - name: Pomegranate Shake
+      subtitle: Lemon sorbet blended with pomegranate juice
+      price: 39
+
+    - name: 44 Mango
+      subtitle: Fresh mango,banana, honey, yogurt and ice blended together
+      price: 49
+
+    - name: LS Milkshakes
+      subtitle: Coffee (R46), Red Berries  (R46), Gourmet Chocolate (R46), Vanilla (R42)
+      price: 
+
+    - name: Basic Sugar Laden Fizzies
+      subtitle:
+      price: 25
+
+    - name: Appletiser | Grapetiser
+      subtitle:
+      price: 29
+
+    - name: Ice Tea
+      subtitle: Kiwi, cucumber & mint, Lemongrass, coconut & ginger, Berry Baobab
+      price: 25 (250ml), R80 (1l)
+
+    - name: Mineral Water
+      subtitle:
+      price: 24 (350ml), R39 (750ml)
+
+- category: hot
+  items:
+    - name: Americano
+      subtitle:
+      price: 23
+
+    - name: Cappuccino
+      subtitle:
+      price: 24
+
+    - name: Cappuccino Large (double shot)
+      subtitle: 
+      price: 32
+
+    - name: Espresso (single)
+      subtitle: 
+      price: 18
+
+    - name: Espresso (double)
+      subtitle: 
+      price: 20
+
+    - name: Macchiato (single)
+      subtitle: 
+      price: 19
+
+    - name: Macchiato (double)
+      subtitle: 
+      price: 21
+
+    - name: Mocha
+      subtitle: 
+      price: 29
+
+    - name: Chai Latte
+      subtitle: 
+      price: 29
+
+    - name: Cafe Latte
+      subtitle: 
+      price: 27
+
+    - name: Hot Chocolate
+      subtitle: 
+      price: 29
+
+    - name: Loose Leaf Tea Selection
+      subtitle: 
+      price: 26
+
+- category: beer
+  items:
+    - name: Castle Lite
+      subtitle: 
+      price: 30
+
+    - name: Heineken
+      subtitle: 
+      price: 33
+
+    - name: Savanna dry
+      subtitle:
+      price: 33
+
+    - name: Sol Mexican Beer
+      subtitle: 
+      price: 33
+
+- category: beerOnTap
+  headings:
+      first: (350ml)
+      second: (750ml)
+  items:
+    - name: Naked Mexican Lager - Summer Lager
+      subtitle:
+      price:
+          first: 39
+          second: 54
+
+    - name: Whale Tale Ale - Light Caramel Ale
+      subtitle:
+      price:
+          first: 44
+          second: 58
+
+    - name: Beer of the Month
+      subtitle:
+      price:
+          first: SQ
+          second: SQ

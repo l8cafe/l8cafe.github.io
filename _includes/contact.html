@@ -1,0 +1,61 @@
+<section class="contact-section bg-black py-4">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Address</h4>
+                        <hr class="my-4">
+                        <div class="small">{{ site.contact.address }}</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-envelope text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Email</h4>
+                        <hr class="my-4">
+                        <div class="small">
+                            <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+
+            <div class="col-md-4 mb-3 mb-md-0">
+                <div class="card py-4 h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                        <h4 class="text-uppercase m-0">Phone</h4>
+                        <hr class="my-4">
+                        <div class="small">{{ site.contact.phone }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="map" class="pt-5">
+            <iframe class="container-fluid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.3506453807736!2d28.016593515329046!3d-26.185269469563934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950c0a7f3cb01f%3A0xe78d10897aa3552e!2sL8+CAFE+%40+44+Stanley!5e0!3m2!1sen!2sza!4v1561723073027!5m2!1sen!2sza"
+                width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="social d-flex justify-content-center">
+            <a href="http://www.facebook.com/{{ site.social.facebook }}" class="mx-2">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="http://www.instagram.com/{{ site.social.instagram }}" class="mx-2">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/{{ site.social.twitter }}" class="mx-2">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+
+    </div>
+</section>
